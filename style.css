@@ -1,0 +1,105 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h1{
+    font-size: 48px;
+    color: white;
+}
+
+header{
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.headerlogo{
+    font-size: 24px;
+}
+
+.navbar{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+  }
+
+.introblock{
+    display: flex;
+    background-color: #1f2937;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.introtext{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+
+}
+
+.introtext p{
+    color: #e5e7eb;
+}
+
+button{
+    background-color: #3882f6;
+    color: white;
+    
+}
+
+.placeholder{
+    width: 300px;
+    height: 200px;
+}
+  
+.informationheader{
+     font-size: 36px;
+     color: #1f2937;
+ } 
+
+.quoteblock{
+    display: flex;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic; 
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-wrap: wrap;
+}
+
+.quotename{
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+
+  footer{
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    justify-content: center;
+}
